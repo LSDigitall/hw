@@ -9,10 +9,15 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: space-around;
+            flex-direction: column; /* Alteração para empilhar as linhas verticalmente */
+            justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f0f0f0;
+            background-color: #202020;
+        }
+        .row {
+            display: flex;
+            margin-bottom: 10px; /* Adiciona uma margem entre as linhas */
         }
         .square {
             width: 80px;
@@ -25,6 +30,7 @@
             color: white;
             font-size: 24px;
             position: relative;
+            margin-right: 10px; /* Adiciona uma margem entre os quadrados */
         }
         .hour-top,
         .hour-bottom {
@@ -37,66 +43,194 @@
     </style>
 </head>
 <body>
-    <div class="square">
-        <div class="hour-top">8h</div>
-        <div>100w</div>
-        <div class="hour-bottom">.</div>
+    <div class="row">
+        <div class="square">
+            <div class="hour-top">8:00</div>
+            <div>100w</div>
+            <div class="hour-bottom">8:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">9:00</div>
+            <div>200w</div>
+            <div class="hour-bottom">9:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">10:00</div>
+            <div>300w</div>
+            <div class="hour-bottom">10:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">8:00</div>
+            <div>100w</div>
+            <div class="hour-bottom">8:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">9:00</div>
+            <div>200w</div>
+            <div class="hour-bottom">9:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">10:00</div>
+            <div>300w</div>
+            <div class="hour-bottom">10:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">8:00</div>
+            <div>100w</div>
+            <div class="hour-bottom">8:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">9:00</div>
+            <div>200w</div>
+            <div class="hour-bottom">9:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">10:00</div>
+            <div>300w</div>
+            <div class="hour-bottom">10:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">8:00</div>
+            <div>100w</div>
+            <div class="hour-bottom">8:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">9:00</div>
+            <div>200w</div>
+            <div class="hour-bottom">9:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">10:00</div>
+            <div>300w</div>
+            <div class="hour-bottom">10:00</div>
+        </div>
+        <!-- Adicione os quadrados da primeira linha aqui -->
     </div>
-    <div class="square">
-        <div class="hour-top">9h</div>
-        <div>200w</div>
-        <div class="hour-bottom">0.1</div>
+    <div class="row">
+        <div class="square">
+            <div class="hour-top">8:00</div>
+            <div>100w</div>
+            <div class="hour-bottom">8:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">9:00</div>
+            <div>200w</div>
+            <div class="hour-bottom">9:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">10:00</div>
+            <div>300w</div>
+            <div class="hour-bottom">10:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">8:00</div>
+            <div>100w</div>
+            <div class="hour-bottom">8:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">9:00</div>
+            <div>200w</div>
+            <div class="hour-bottom">9:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">10:00</div>
+            <div>300w</div>
+            <div class="hour-bottom">10:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">8:00</div>
+            <div>100w</div>
+            <div class="hour-bottom">8:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">9:00</div>
+            <div>200w</div>
+            <div class="hour-bottom">9:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">10:00</div>
+            <div>300w</div>
+            <div class="hour-bottom">10:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">8:00</div>
+            <div>100w</div>
+            <div class="hour-bottom">8:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">9:00</div>
+            <div>200w</div>
+            <div class="hour-bottom">9:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">10:00</div>
+            <div>300w</div>
+            <div class="hour-bottom">10:00</div>
+        </div>
+        <!-- Adicione os quadrados da segunda linha aqui -->
     </div>
-    <div class="square">
-        <div class="hour-top">10h</div>
-        <div>300w</div>
-        <div class="hour-bottom">0.5</div>
+    <div class="row">
+        <div class="square">
+            <div class="hour-top">8:00</div>
+            <div>100w</div>
+            <div class="hour-bottom">8:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">9:00</div>
+            <div>200w</div>
+            <div class="hour-bottom">9:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">10:00</div>
+            <div>300w</div>
+            <div class="hour-bottom">10:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">8:00</div>
+            <div>100w</div>
+            <div class="hour-bottom">8:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">9:00</div>
+            <div>200w</div>
+            <div class="hour-bottom">9:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">10:00</div>
+            <div>300w</div>
+            <div class="hour-bottom">10:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">8:00</div>
+            <div>100w</div>
+            <div class="hour-bottom">8:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">9:00</div>
+            <div>200w</div>
+            <div class="hour-bottom">9:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">10:00</div>
+            <div>300w</div>
+            <div class="hour-bottom">10:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">8:00</div>
+            <div>100w</div>
+            <div class="hour-bottom">8:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">9:00</div>
+            <div>200w</div>
+            <div class="hour-bottom">9:00</div>
+        </div>
+        <div class="square">
+            <div class="hour-top">10:00</div>
+            <div>300w</div>
+            <div class="hour-bottom">10:00</div>
+        </div>
+        <!-- Adicione os quadrados da terceira linha aqui -->
     </div>
-    <div class="square">
-        <div class="hour-top">10h</div>
-        <div>300w</div>
-        <div class="hour-bottom">0.5</div>
-    </div>
-    <div class="square">
-        <div class="hour-top">10h</div>
-        <div>300w</div>
-        <div class="hour-bottom">0.5</div>
-    </div>
-    <div class="square">
-        <div class="hour-top">10h</div>
-        <div>300w</div>
-        <div class="hour-bottom">0.5</div>
-    </div>
-    <div class="square">
-        <div class="hour-top">10h</div>
-        <div>300w</div>
-        <div class="hour-bottom">0.5</div>
-    </div>
-    <div class="square">
-        <div class="hour-top">10h</div>
-        <div>300w</div>
-        <div class="hour-bottom">0.5</div>
-    </div>
-    <div class="square">
-        <div class="hour-top">10h</div>
-        <div>300w</div>
-        <div class="hour-bottom">0.5</div>
-    </div>
-    <div class="square">
-        <div class="hour-top">10h</div>
-        <div>300w</div>
-        <div class="hour-bottom">0.5</div>
-    </div>
-    <div class="square">
-        <div class="hour-top">10h</div>
-        <div>300w</div>
-        <div class="hour-bottom">0.5</div>
-    </div>
-    <div class="square">
-        <div class="hour-top">10h</div>
-        <div>300w</div>
-        <div class="hour-bottom">0.5</div>
-    </div>
-    <!-- Adicione o resto dos quadrados aqui -->
 </body>
 </html>
